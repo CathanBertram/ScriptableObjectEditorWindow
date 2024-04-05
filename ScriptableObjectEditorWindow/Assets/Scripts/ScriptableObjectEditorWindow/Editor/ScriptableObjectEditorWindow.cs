@@ -8,10 +8,6 @@ using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
-using UnityEditor.Experimental.Rendering;
-using static Codice.CM.Common.CmCallContext;
-using Unity.VisualScripting;
-
 public abstract class ScriptableObjectEditorWindow<T> : EditorWindow where T : ScriptableObject
 {
     VisualElement rightPane;
